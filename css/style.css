@@ -1,0 +1,155 @@
+*{
+	margin: 0 auto;
+}
+h1{
+font-family:fantasy;
+}
+h2{
+font-family:poppins;
+}
+ h3{
+font-family: Courgette;
+}
+.navbar{
+	background: #111;
+}
+.bgimg{
+	background-image: url('../img/5564130-san-francisco-wallpapers.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1050px;
+}
+.btn{
+	background:#F0FF00 ;
+}
+.headerset{
+	padding-top: 450px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 42px;
+}
+.headerset h1{
+	font-size: 82px;
+	font-weight: bold;
+}
+                      /* service section */
+.ourservices{
+	padding: 80px 60px;
+	height: 700px;
+}
+.rowsetting{
+	margin: 90px 0px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.imgsetting{
+	border-radius:50%;
+	height: 100px;
+	width: 100px;
+	background: #F0FF00 ;
+
+}
+.fa{
+	margin-top: 26px;
+}
+.rowsetting p{
+ padding: 10px;
+ color: #6c757d
+}
+.rowsetting h2{
+	margin-top:20px;
+	font-weight:bold;
+	font-size: 30px;
+}
+               
+
+
+          /* PORTFOLIO */
+.portfolio{
+	height: 1100px;
+	width: 100%;
+	padding:100px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold
+}
+.card{
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+
+                       /* About section our team */
+.ourteam{
+ height: 700px;
+ padding: 100px 30px 60px;
+ width: 100%;
+}
+.ourteam h1{
+	font-size: 50px;
+	font-weight: bold
+
+}
+.teamsettings{
+	margin-top: 60px;
+}
+
+                  /* social media */
+/*  #social-media{
+ 
+ 	padding: 100px 0;
+ }
+#social-media p{
+ 	font-size: 26px;
+ 	font-weight: bold;
+ 	margin-bottom: 40px;
+ }
+ .social-icons img{
+ 	width: 140px;
+ 	transition: 0.5s;
+ 	padding: 20px;
+ }
+  .social-icons a:hover img{
+ 	transform: translateY(-10px);
+ }
+ */
+         /* footer */
+.footer-top .row{
+  margin-left: 120px;
+ }
+.footer-top p{
+	color: #fff;
+	line-height:25px;
+}
+.footer-top h2,h3{
+	color: #fff;
+}
+.footer-top{
+	background: #111;
+	padding: 100px 0 60px;
+}
+
+.footer h6{
+	line-height:20px;
+	margin-right: 50px;  
+}
+.segment-one .fa{
+	color:#E9F70E;
+	border-radius:5px;
+}
+.segment-one form input[type=submit]{
+	background:#E9F70E ;
+	border: none;
+	padding: 3px 10px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+.segment-one form input[type=email]{
+
+	border-radius:5px;
+}
