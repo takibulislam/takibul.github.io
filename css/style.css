@@ -18,7 +18,7 @@ font-family: Courgette;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	width: 100%;
-	height: 1050px;
+	height: 975px;
 }
 .btn{
 	background:#F0FF00 ;
@@ -37,7 +37,7 @@ font-family: Courgette;
                       /* service section */
 .ourservices{
 	padding: 80px 60px;
-	height: 700px;
+	height: 750px;
 }
 .rowsetting{
 	margin: 90px 0px;
@@ -65,7 +65,7 @@ font-family: Courgette;
 	font-weight:bold;
 	font-size: 30px;
 }
-               
+
 
 
           /* PORTFOLIO */
@@ -76,7 +76,7 @@ font-family: Courgette;
 }
 .portfolio h1{
 	font-size: 50px;
-	font-weight: bold
+	font-weight: bold;
 }
 .card{
 	margin-top:50px;
@@ -100,7 +100,7 @@ font-family: Courgette;
 
                   /* social media */
 /*  #social-media{
- 
+
  	padding: 100px 0;
  }
 #social-media p{
@@ -132,13 +132,12 @@ font-family: Courgette;
 	background: #111;
 	padding: 100px 0 60px;
 }
-
 .footer h6{
 	line-height:20px;
-	margin-right: 50px;  
+	margin-right: 50px;
 }
 .segment-one .fa{
-	color:#E9F70E;
+	color:#fff;
 	border-radius:5px;
 }
 .segment-one form input[type=submit]{
@@ -152,4 +151,397 @@ font-family: Courgette;
 .segment-one form input[type=email]{
 
 	border-radius:5px;
+}
+
+
+
+                   /* RESPONSIVE MEDIA QUERY */
+@media all and (min-width:992px ){
+
+}
+@media all and (min-width:768px ) and (max-width: 991px){
+
+
+           /* portfolio */
+.portfolio{
+	height: 1000px;
+	width: 100%;
+	padding:100px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.portfolio h2{
+	font-size: 20px;
+	font-weight:;
+}
+.card{
+	margin-top:50px;
+	margin-bottom: 10px;
+}
+
+             /* about */
+.ourteam{
+ height: 600px;
+ padding: 100px 30px 60px;
+ width: 100%;
+}
+.ourteam h1{
+	font-size: 36px;
+	font-weight: bold
+
+}
+.teamsettings{
+	margin-top: 60px;
+}
+
+          /* footer */
+.footer-top .row{
+  margin-left: 15px;
+ }
+.footer-top p{
+	color: #fff ;
+	line-height:25px;
+}
+.footer-top h2,h3{
+	color:#DDFF00 ;
+}
+.footer-top{
+	background: #111;
+	padding: 100px 0 60px;
+}
+
+.footer h6{
+	line-height:5px;
+	margin-right: 50px;
+}
+.segment-one .fa{
+	color:#fff;
+	margin-top: -5px;
+	margin-bottom: 40px;
+}
+.segment-one form input[type=submit]{
+	background:#E9F70E ;
+	border: none;
+	padding: 3px 10px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+.segment-one form input[type=email]{
+
+	border-radius:5px;
+}
+
+
+}
+@media all and (min-width:576px ) and (max-width: 767px)  {
+
+.bgimg{
+background-image: url('../img/5564130-san-francisco-wallpapers.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+width: 100%;
+height: 775px;
+}
+
+.headerset h2{
+	font-size: 32px;
+}
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+            /* searvices */
+.ourservices{
+	padding: 80px 60px;
+	height: 1000px;
+}
+.rowsetting{
+	margin: 90px 0px;
+
+}
+.rowsetting p{
+	margin-bottom: 40px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.ourservices h2{
+	font-size: 17px;
+	font-weight: bold;
+}
+           /* portfolio */
+.portfolio{
+	height: 3050px;
+	width: 100%;
+	padding:100px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top:50px;
+	margin-bottom: 10px;
+}
+
+             /* about */
+.ourteam{
+ height: 1080px;
+ padding: 100px 30px 60px;
+ width: 100%;
+}
+.ourteam h1{
+	font-size: 36px;
+	font-weight: bold
+
+}
+.teamsettings{
+	margin-top: 60px;
+}
+
+          /* footer */
+.footer-top .row{
+  margin-left: 15px;
+ }
+.footer-top p{
+	color: #fff ;
+	line-height:25px;
+}
+.footer-top h2,h3{
+	color:#DDFF00 ;
+}
+.footer-top{
+	background: #111;
+	padding: 100px 0 60px;
+}
+
+.footer h6{
+	line-height:5px;
+	margin-right: 50px;
+}
+.segment-one .fa{
+	color:#fff;
+	margin-top: -5px;
+	margin-bottom: 40px;
+}
+.segment-one form input[type=submit]{
+	background:#E9F70E ;
+	border: none;
+	padding: 3px 10px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+.segment-one form input[type=email]{
+
+	border-radius:5px;
+}
+
+
+
+
+}
+
+@media all and (min-width:460px ) and (max-width:575px ) {
+
+.bgimg{
+background-image: url('../img/5564130-san-francisco-wallpapers.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+width: 100%;
+height: 775px;
+}
+
+.headerset h2{
+	font-size: 32px;
+}
+.headerset h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+            /* searvices */
+ .ourservices{
+	padding: 80px 60px;
+	height: 1380px;
+}
+.rowsetting{
+	margin: 90px 0px;
+
+}
+.rowsetting p{
+	margin-bottom: 40px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+           /* portfolio */
+.portfolio{
+	height: 2460px;
+	width: 100%;
+	padding:100px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top:50px;
+	margin-bottom: 10px;
+}
+
+             /* about */
+.ourteam{
+ height: 1080px;
+ padding: 100px 30px 60px;
+ width: 100%;
+}
+.ourteam h1{
+	font-size: 36px;
+	font-weight: bold
+
+}
+.teamsettings{
+	margin-top: 60px;
+}
+
+          /* footer */
+.footer-top .row{
+  margin-left: 15px;
+ }
+.footer-top p{
+	color: #fff ;
+	line-height:25px;
+}
+.footer-top h2,h3{
+	color:#DDFF00 ;
+}
+.footer-top{
+	background: #111;
+	padding: 100px 0 60px;
+}
+
+.footer h6{
+	line-height:5px;
+	margin-right: 50px;
+}
+.segment-one .fa{
+	color:#fff;
+	margin-top: -5px;
+	margin-bottom: 40px;
+}
+.segment-one form input[type=submit]{
+	background:#E9F70E ;
+	border: none;
+	padding: 3px 10px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+.segment-one form input[type=email]{
+
+	border-radius:5px;
+}
+}
+
+@media all and (max-width: 459px) {
+
+.bgimg{
+	background-image: url('../img/5564130-san-francisco-wallpapers.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 775px;
+}
+
+.headerset h2{
+	font-size: 36px;
+}
+.headerset h1{
+	font-size: 52px;
+	font-weight: bold;
+}
+            /* searvices */
+ .ourservices{
+	padding: 80px 60px;
+	height: 1600px;
+}
+.rowsetting{
+	margin: 90px 0px;
+}
+.ourservices h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+           /* portfolio */
+.portfolio{
+	height: 2350px;
+	width: 100%;
+	padding:100px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	margin-top:50px;
+	margin-bottom: 10px;
+}
+
+             /* about */
+.ourteam{
+ height: 1100px;
+ padding: 100px 30px 60px;
+ width: 100%;
+}
+.ourteam h1{
+	font-size: 36px;
+	font-weight: bold
+
+}
+.teamsettings{
+	margin-top: 60px;
+}
+
+          /* footer */
+.footer-top .row{
+  margin-left: 15px;
+ }
+.footer-top p{
+	color: #fff ;
+	line-height:25px;
+}
+.footer-top h2,h3{
+	color:#DDFF00 ;
+}
+.footer-top{
+	background: #111;
+	padding: 100px 0 60px;
+}
+
+.footer h6{
+	line-height:5px;
+	margin-right: 50px;
+}
+.segment-one .fa{
+	color:#fff;
+	margin-top: -5px;
+	margin-bottom: 40px;
+}
+.segment-one form input[type=submit]{
+	background:#E9F70E ;
+	border: none;
+	padding: 3px 10px;
+	margin-left: 0px;
+	text-transform: uppercase;
+	border-radius:5px;
+}
+.segment-one form input[type=email]{
+
+	border-radius:5px;
+}
 }
